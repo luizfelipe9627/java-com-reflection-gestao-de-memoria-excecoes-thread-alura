@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="moduleMapping">
+      <map>
+        <entry key="3.comparando-campos" value="getDeclaredConstructor-e-getDeclaredFields" />
+        <entry key="testando-a-aplicacao" value="comparando-campos" />
+      </map>
+    </option>
+  </component>
+</project>
