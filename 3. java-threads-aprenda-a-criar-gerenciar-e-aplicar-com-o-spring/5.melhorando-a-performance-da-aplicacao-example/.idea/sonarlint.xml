@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="moduleMapping">
+      <map>
+        <entry key="2.sincronizando-requisicoes" value="adopet-store" />
+        <entry key="3.enviando-emails-com-concorrencia" value="sincronizando-requisicoes" />
+        <entry key="4.agendando-o-envio-de-relatorios" value="enviando-emails-com-concorrencia" />
+        <entry key="5.melhorando-a-performance-da-aplicacao" value="1.utilizando-threads-em-java" />
+      </map>
+    </option>
+  </component>
+</project>
