@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="2.sincronizando-requisicoes" />
         <module name="4.agendando-o-envio-de-relatorios" />
         <module name="3.enviando-emails-com-concorrencia" />
+        <module name="2.sincronizando-requisicoes" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,7 +17,7 @@
       <module name="2.sincronizando-requisicoes" options="-parameters" />
       <module name="3.enviando-emails-com-concorrencia" options="-parameters" />
       <module name="4.agendando-o-envio-de-relatorios" options="-parameters" />
-      <module name="5.melhorando-a-performance-da-aplicacao" options="-parameters" />
+      <module name="5.melhorando-a-performance-da-aplicacao-example" options="-parameters" />
     </option>
   </component>
 </project>
