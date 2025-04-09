@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="moduleMapping">
+      <map>
+        <entry key="5.modulos-no-maven" value="modulos-no-maven" />
+        <entry key="produtos" value="dependencias-com-o-maven" />
+      </map>
+    </option>
+  </component>
+</project>

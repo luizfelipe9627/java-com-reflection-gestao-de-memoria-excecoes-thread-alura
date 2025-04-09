@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- A tag <modelVersion> é a versão do modelo do POM -->
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>br.com.alura</groupId>
+        <artifactId>modulos-no-maven</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <!-- A tag <artifactId> é o identificador único do projeto -->
+    <artifactId>produtos</artifactId>
+    <!-- A tag <version> é a versão do projeto -->
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- A tag <properties> é onde ficam as propriedades do projeto -->
+    <properties>
+        <!-- A tag <maven.compiler.source> é a versão do Java que o projeto está utilizando -->
+        <maven.compiler.source>17</maven.compiler.source>
+        <!-- A tag <maven.compiler.target> é a versão do Java que o projeto está utilizando -->
+        <maven.compiler.target>17</maven.compiler.target>
+        <!-- A tag <project.build.sourceEncoding> é a codificação do projeto, que por padrão é UTF-8 -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!-- A tag <repositories> é onde ficam os repositórios do projeto -->
+    <repositories>
+        <!-- Repositório do Dynomake, que é um repositório de artefatos Maven -->
+        <repository>
+            <id>dynomakeRepository</id>
+            <url>https://maven.dynomake.space/releases</url>
+        </repository>
+    </repositories>
+
+    <!-- A tag <dependencies> é onde ficam as dependências do projeto -->
+    <dependencies>
+        <!-- Dependência chamada OpenCSV, que é uma biblioteca para manipulação de arquivos CSV -->
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.10</version>
+        </dependency>
+        <!-- Dependência chamada LibreTranslate, que é uma biblioteca para tradução de textos -->
+        <dependency>
+            <groupId>space.dynomake</groupId>
+            <artifactId>libretranslate-java</artifactId>
+            <version>1.0.9</version>
+        </dependency>
+    </dependencies>
+
+</project>
